@@ -1,3 +1,4 @@
+//Given q Query print sum of array from [l,r]
 #include<iostream>
 using namespace std;
 int main() {
