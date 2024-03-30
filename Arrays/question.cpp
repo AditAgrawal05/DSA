@@ -21,3 +21,4 @@ int main() {
 	}
 	
 }
+//computation = n*q
