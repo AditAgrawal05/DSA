@@ -1,12 +1,14 @@
 #include<iostream>
 using  namespace std;
+#define int long long
 int n, m, k;
 int a[100001] = {0};
 int l[100001] = {0}, r[100001] = {0}, d[100001] = {0};
 int Operation_Count[100005] = {0};
 int difference[100005] = {0};
-int main() {
-
+//maximum size of array is 10^8 in global array
+int32_t main() {
+  //maximum size of array is 10^6 in local array
 	cin >> n >> m >> k;
 	for (int i = 1; i <= n; i = i + 1) {
 		cin >> a[i];
